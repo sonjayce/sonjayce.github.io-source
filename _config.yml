@@ -102,5 +102,5 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://ghp_XzpNgI4BmZSmWXUeBo5jJYlsLUvQjN3mxNt@github.com/sonjayce/sonjayce.github.io.git
+  repo: git@github.com:sonjayce/sonjayce.github.io.git
   branch: main
