@@ -35,8 +35,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'sonjayce'
+          git config --global user.email '3489073251@qq.com'
 
       - name: Deploy to GitHub Pages
         run: |
@@ -45,5 +45,5 @@ jobs:
           git add -A
           git commit -m "Create by workflows"
           git branch -M main
-          git remote add origin https://{Token}@github.com/{user}/{repo}.git    # 保存静态网页文件的公开仓
+          git remote add origin https://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@github.com/sonjacye/sonjayce.github.io.git    # 保存静态网页文件的公开仓
           git push origin HEAD:main -f
