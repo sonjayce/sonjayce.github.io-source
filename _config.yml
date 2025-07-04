@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 探界安全
+subtitle: '永远相信美好的<br>事情即将发生'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 探界安全
+language: zh-CN
 timezone: ''
 
 # URL
@@ -96,9 +96,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: anzhiyu
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://gghp_XzpNgI4BmZSmWXUeBo5jJYlsLUvQjN3mxNt@github.com/sonjayce/sonjayce.github.io.git
+  branch: main
